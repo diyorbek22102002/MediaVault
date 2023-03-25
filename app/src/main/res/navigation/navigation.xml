@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/btn1">
+
+    <fragment
+        android:id="@+id/btn1"
+        android:name="com.example.mediavault.fragments.YoutubeFragment"
+        android:label="fragment_youtube"
+        tools:layout="@layout/fragment_youtube" />
+    <fragment
+        android:id="@+id/btn2"
+        android:name="com.example.mediavault.fragments.TikTokFragment"
+        android:label="fragment_tik_tok"
+        tools:layout="@layout/fragment_tik_tok" />
+    <fragment
+        android:id="@+id/btn3"
+        android:name="com.example.mediavault.fragments.InstaFragment"
+        android:label="fragment_insta"
+        tools:layout="@layout/fragment_insta" />
+</navigation>
