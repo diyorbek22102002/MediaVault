@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MediaVault</string>
+    <string name="media_vault">Media Vault</string>
 </resources>
