@@ -24,7 +24,7 @@
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_menu"
-        app:labelVisibilityMode="selected"
+        app:labelVisibilityMode="unlabeled"
         app:menu = "@menu/bottom_menu"
         app:itemIconSize = "34dp"
         app:layout_constraintBottom_toBottomOf="parent"
