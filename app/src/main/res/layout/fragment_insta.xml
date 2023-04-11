@@ -4,6 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:textSize="25dp"
+        android:layout_width="298dp"
+        android:layout_height="131dp"
+        android:text="TO DOWNLOAD VIDEO FROM INSTAGRAM INPUT YOUR LINK AND PUSH DOWNLOAD"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.79" />
+
     <EditText
         android:id="@+id/editText"
         android:layout_width="291dp"
