@@ -1,4 +1,4 @@
-package com.example.mediavault
+package com.example.mediavault.presentation
 
 import android.animation.ObjectAnimator
 import android.annotation.SuppressLint

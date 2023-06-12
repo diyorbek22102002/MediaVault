@@ -1,4 +1,4 @@
-package com.example.mediavault.fragments
+package com.example.mediavault.presentation.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,7 +8,9 @@ import android.view.ViewGroup
 import com.example.mediavault.R
 
 
-class YoutubeFragment : Fragment() {
+class Settings : Fragment() {
+
+
 
 
     override fun onCreateView(
@@ -16,7 +18,7 @@ class YoutubeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_youtube, container, false)
+        return inflater.inflate(R.layout.fragment_settings, container, false)
     }
 
 }

@@ -3,7 +3,9 @@
     <string name="media_vault">Media Vault</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="youtube">Youtube</string>
-    <string name="tik_tok">Tik Tok</string>
-    <string name="instagram">Instagram</string>
+
+    <string name="editTextUri">Вставьте ссылку</string>
+    <string name="download">скачать</string>
+    <string name="InsertLink">Всавить ссылку</string>
+
 </resources>

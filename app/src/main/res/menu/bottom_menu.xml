@@ -2,25 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:title="@string/youtube"
-        android:id="@+id/btn1"
-        android:icon="@drawable/youtube"
-        app:showAsAction="always"/>
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/home"
+        android:title="" />
 
 
     <item
-        android:title="@string/tik_tok"
-        android:id="@+id/btn2"
-        android:icon="@drawable/tiktok"
-        app:showAsAction="always"/>
-
-
-    <item
-        android:title="@string/instagram"
-        android:id="@+id/btn3"
-        android:icon="@drawable/instagram"
-        app:showAsAction="always"/>
-
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/settings"
+        android:title="" />
 
 
 </menu>

@@ -5,23 +5,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EEE8AA"
-    tools:context=".SplashActivity">
+    android:background="#FFFFFF"
+    tools:context=".presentation.SplashActivity">
 
 
     <TextView
-        android:textColor="#FF00FF"
+        android:textColor="@color/black"
         android:id="@+id/mediaVaultSplash"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="328dp"
-        android:fontFamily="casual"
         android:text="@string/media_vault"
         android:textSize="25sp"
-        android:textStyle="bold"
-        app:flow_horizontalBias="0.498"
+        android:textStyle="normal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
     </TextView>
@@ -31,7 +28,7 @@
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:progressTint="#FF00FF"
+        android:progressTint="@color/green300"
         android:scaleY="1.2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
